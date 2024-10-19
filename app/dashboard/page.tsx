@@ -5,8 +5,8 @@ import LatestInvoices from '@/app/ui/dashboard/latest-invoices'
 import { fetchRevenue } from '@/app/lib/data'
 
 export default async function Page() {
-  const revenue = await fetchRevenue()
-  console.log(revenue)
+  // const revenue = await fetchRevenue()
+  // console.log(revenue)
 
   return (
     <main>
